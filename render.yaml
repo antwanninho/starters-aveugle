@@ -1,0 +1,9 @@
+# Configuration pour Render (https://render.com) : « New » → « Blueprint » → ce dépôt.
+services:
+  - type: web
+    name: starters-aveugle
+    runtime: node
+    plan: free
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /sante

@@ -1,0 +1,21 @@
+{
+  "name": "starters-aveugle",
+  "version": "1.0.0",
+  "description": "Jeu 1v1 : starters Pokémon à l'aveugle",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "devDependencies": {
+    "pokemon-showdown": "^0.11.11"
+  }
+}
